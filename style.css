@@ -1,0 +1,39 @@
+body {
+      background-image: url(background.png);
+      font-family: Noto Sans, sans-serif;
+      color: #FFFFFF;
+}
+
+.a {
+      text-align: left;
+}
+
+.b {
+      text-align: center;
+}
+
+.container {
+      text-align: center !important;
+}
+
+.header:hover {
+      color: #F5DEB3;
+}
+
+input, button {
+      margin: 15px;
+}
+
+.output {
+      background: #FFFFFF;
+      color: #AAAAAA;
+      border-radius: 10px;
+      border-top: 10px solid #AA4465;
+      padding: 10px;
+      float: none;
+      text-align: left;
+}
+
+.btn-success {
+      visibility: hidden;
+}

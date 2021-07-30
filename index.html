@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Math Quiz | Game Page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../style.css">
+      <link rel="icon" href="../favicon.png" type="image/png">
+      <script src="../game.js"></script>
+</head>
+
+<body class="a">
+      
+      <h4 id="p1n"></h4><span id="p1s"></span>
+      <br>
+      <h4 id="p2n"></h4><span id="p2s"></span>
+      <br><br>
+      <div class="container">
+            <img src="logo.jpg" alt="../favicon.png">
+            <h2 class="header">Play the Game</h2>
+            <h3 class="header" id="quest"></h3>
+            <h3 class="header" id="answr"></h3>f
+            <div class="output" id="output"></div>
+            <h3>Number 1</h3>
+            <br>
+            <input type="number" id="num1" class="form-control" placeholder="Enter number 1...">
+            <br>
+            <hr>
+            <h3>Number 2</h3>
+            <br>
+            <input type="number" placeholder="Enter number 2..." id="num2" class="form-control">
+            <br>
+            <button class="btn btn-warning" onclick="sendQuest()" id="b1">Send</button>
+            <button class="btn btn-success" onclick="sendQuest()" id="b2">Sent!</button>
+      </div>
+</body>
+
+</html>
